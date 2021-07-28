@@ -1,0 +1,17 @@
+.header__lang-link {
+  margin-right: 18px;
+  font-family: Inter;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.header__lang-link:last-child {
+  margin-right: 0;
+}
+
+
+.header__lang-link:first-child {
+  text-decoration: underline;
+}
