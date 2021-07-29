@@ -28,6 +28,6 @@
     width: 288px;
     grid-row: 4;
     grid-column: 1;
-    margin: auto;
+    margin: 0 auto 26px;
   }
 }
