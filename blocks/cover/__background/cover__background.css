@@ -7,10 +7,16 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  text-decoration: none;
+
 }
 
 .cover__background:hover {
   opacity: .8;
+}
+
+.cover__background:link {
+  color: #fff;
 }
 
 @media screen and (min-width: 1280px) {
