@@ -1,7 +1,7 @@
 .cover__background {
   background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(../../../images/cover-trains.jpg);
   height: 740px;
-  width: 1184px;
+  width: 100%;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -13,13 +13,23 @@
   opacity: .8;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .cover__background {
   box-sizing: border-box;
   margin: 0 auto;
   background-size: cover;
   height: 640px;
-  width: 1024px;
+  width: 1184px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__background {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-size: cover;
+  height: 640px;
+  width: 100%;
   }
 }
 
