@@ -2,15 +2,9 @@
   padding: 92px 0 24px;
   width: 1184px;
   margin: auto;
+  display: flex;
+  flex-direction: row;
 }
-
-
-@media screen and (min-width: 1280px) {
-  .footer {
-    width: 1184px;
-  }
-}
-
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .footer {
@@ -30,5 +24,6 @@
     width: 186px;
     padding: 64px 0 24px 16px;
     margin: 0;
+    flex-direction: column;
   }
 }

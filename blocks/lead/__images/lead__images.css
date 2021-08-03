@@ -1,16 +1,16 @@
 .lead__images {
-  width: 984px;
+  max-width: 984px;
   display: flex;
   flex-direction: column;
   margin: auto;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__images {
     max-width: 928px;
   }
-
-}@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .lead__images {
     width: 100%;
   }
@@ -21,6 +21,3 @@
     max-width: 100%;
   }
 }
-
-
-

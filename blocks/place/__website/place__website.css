@@ -9,8 +9,6 @@
   .place__website {
     grid-row: 2;
     grid-column: 1;
-    align-self: end;
-    justify-self: start;
     margin-left: 16px;
   }
 }

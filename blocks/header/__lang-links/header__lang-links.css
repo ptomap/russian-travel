@@ -1,3 +1,4 @@
 .header__lang-links {
-display: flex;
+  display: flex;
+  align-items: flex-end;
 }
