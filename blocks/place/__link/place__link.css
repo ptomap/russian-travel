@@ -8,6 +8,7 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFF;
+  cursor: pointer
 }
 
 .place__link:link {

@@ -5,6 +5,7 @@
   text-decoration: none;
   color: #fff;
   margin-right: 18px;
+  cursor: pointer
 }
 
 .footer__link:last-of-type {
