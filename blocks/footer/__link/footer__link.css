@@ -5,7 +5,7 @@
   text-decoration: none;
   color: #fff;
   margin-right: 18px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .footer__link:last-of-type {
@@ -23,15 +23,12 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer__link {
     margin: 0 0 32px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
   }
 
   .footer__link:last-of-type {
     margin: 0 0 48px;
-  }
-
-  .footer__link {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
   }
 }
